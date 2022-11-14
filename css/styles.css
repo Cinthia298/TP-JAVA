@@ -1,0 +1,104 @@
+.h1-ejemplo {
+    color: rgba(128, 40, 150, 0.932);
+    font-size:40px;
+    border: 5px outset royalblue;
+    background-color: rgb(162, 212, 196);
+    border-radius: 10px;
+    text-align: center;  
+}
+
+
+#section-img {
+    display: flex;
+    justify-content: center;
+    align-items:inherit;
+    width:100%;
+    text-align:center;
+    
+  }
+
+  .div-img {
+    border: 3px solid rgb(13, 168, 155);
+    border-style: double;
+    padding-bottom: unset;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+body {
+    background-image: url("/imagenes/fondoliso.jpg");
+    background-repeat: inherit;
+   background-size: contain;
+   color: rgb(7, 95, 80);
+   
+   
+}
+
+* {
+    line-height: 1.5;
+    list-style: none;
+    font-family: 'Montez', cursive;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 {
+    text-align: left;
+    
+}
+
+.index-footer__section .footer__article {
+    background-color: rgb(241, 176, 176);
+    width: 700px;
+    border: ridge;
+    border-color: rgba(255, 0, 43, 0.473);
+    padding: 30px;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.index-form {
+    color: rgba(67, 12, 155, 0.829);
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+
+a {
+    text-decoration-color: brown;
+    
+
+}
+
+
+.index-ul {
+    display:flex;
+    flex-direction: row;   
+    
+}
+
+.index-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.index-ul li a {
+    color: bisque;
+    
+}
+
+.index-ul li a :hover{
+    color: black;
+    
+}
